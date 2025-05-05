@@ -6,7 +6,7 @@ hello world!
 
 #필요한 CMake 최소 버전 명시
 #해당하는 버전일때만 CMake가 빌드 파일을 생성할 수 있음
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.10.0)
 
 #프로젝트 정의
 project(command VERSION 0.0.1 LANGUAGES C CXX)
