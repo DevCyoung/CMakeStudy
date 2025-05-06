@@ -1,0 +1,5 @@
+foo-test 6 0.00114577
+bar-test 0 0
+baz-test 6 0.00116577
+---
+bar-test

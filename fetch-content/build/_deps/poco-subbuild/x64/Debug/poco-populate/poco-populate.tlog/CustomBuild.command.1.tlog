@@ -1,0 +1,152 @@
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\42E5ACD1AF22D71D054138D1654B1BF5\POCO-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/tmp/poco-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\42E5ACD1AF22D71D054138D1654B1BF5\POCO-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/download-poco-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/verify-poco-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/extract-poco-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\42E5ACD1AF22D71D054138D1654B1BF5\POCO-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\42E5ACD1AF22D71D054138D1654B1BF5\POCO-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\42E5ACD1AF22D71D054138D1654B1BF5\POCO-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\poco-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\42E5ACD1AF22D71D054138D1654B1BF5\POCO-POPULATE-BUILD.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\poco-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\42E5ACD1AF22D71D054138D1654B1BF5\POCO-POPULATE-INSTALL.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\poco-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\42E5ACD1AF22D71D054138D1654B1BF5\POCO-POPULATE-TEST.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\poco-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\84FDA0C6433E2BC4DB60D46B96E74D1D\POCO-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/opengl/fetch-content/build/_deps/poco-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/CMakeFiles/Debug/poco-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/Debug/poco-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\1D057C204D6DB9123E7C67D9050A92BE\POCO-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content/build/_deps/poco-subbuild -BC:/opengl/fetch-content/build/_deps/poco-subbuild --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

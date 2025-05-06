@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/09b3e86127f0d7e9f5d97448deaf0c5f/spdlog-populate.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/71e00a93e2d26cb9849783405913008f/spdlog-populate-complete.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/37d501bd3362c5b6af1b7135022ebe2b/spdlog-populate-build.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/37d501bd3362c5b6af1b7135022ebe2b/spdlog-populate-configure.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/37d501bd3362c5b6af1b7135022ebe2b/spdlog-populate-download.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/37d501bd3362c5b6af1b7135022ebe2b/spdlog-populate-install.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/37d501bd3362c5b6af1b7135022ebe2b/spdlog-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/37d501bd3362c5b6af1b7135022ebe2b/spdlog-populate-patch.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/37d501bd3362c5b6af1b7135022ebe2b/spdlog-populate-test.rule"
+		},
+		{
+			"file" : "C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/37d501bd3362c5b6af1b7135022ebe2b/spdlog-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog-populate"
+		],
+		"name" : "spdlog-populate"
+	}
+}

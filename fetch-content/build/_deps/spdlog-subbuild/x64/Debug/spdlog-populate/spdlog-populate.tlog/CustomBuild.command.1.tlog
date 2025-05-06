@@ -1,0 +1,150 @@
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\37D501BD3362C5B6AF1B7135022EBE2B\SPDLOG-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\37D501BD3362C5B6AF1B7135022EBE2B\SPDLOG-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\37D501BD3362C5B6AF1B7135022EBE2B\SPDLOG-POPULATE-UPDATE.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\spdlog-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\37D501BD3362C5B6AF1B7135022EBE2B\SPDLOG-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\37D501BD3362C5B6AF1B7135022EBE2B\SPDLOG-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\37D501BD3362C5B6AF1B7135022EBE2B\SPDLOG-POPULATE-BUILD.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\37D501BD3362C5B6AF1B7135022EBE2B\SPDLOG-POPULATE-INSTALL.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\37D501BD3362C5B6AF1B7135022EBE2B\SPDLOG-POPULATE-TEST.RULE
+setlocal
+cd C:\opengl\fetch-content\build\_deps\spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\71E00A93E2D26CB9849783405913008F\SPDLOG-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/Debug/spdlog-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/opengl/fetch-content/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/Debug/spdlog-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKEFILES\09B3E86127F0D7E9F5D97448DEAF0C5F\SPDLOG-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\SPDLOG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content/build/_deps/spdlog-subbuild -BC:/opengl/fetch-content/build/_deps/spdlog-subbuild --check-stamp-file C:/opengl/fetch-content/build/_deps/spdlog-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

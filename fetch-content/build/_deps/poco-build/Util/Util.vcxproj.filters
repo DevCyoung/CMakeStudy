@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\AbstractConfiguration.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\Application.cpp">
+      <Filter>Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\ConfigurationMapper.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\ConfigurationView.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\FilesystemConfiguration.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\HelpFormatter.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\IniFileConfiguration.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\IntValidator.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\JSONConfiguration.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\LayeredConfiguration.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\LocalConfigurationView.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\LoggingConfigurator.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\LoggingSubsystem.cpp">
+      <Filter>Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\MapConfiguration.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\Option.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\OptionCallback.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\OptionException.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\OptionProcessor.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\OptionSet.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\PropertyFileConfiguration.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\RegExpValidator.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\ServerApplication.cpp">
+      <Filter>Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\Subsystem.cpp">
+      <Filter>Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\SystemConfiguration.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\Timer.cpp">
+      <Filter>Timer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\TimerTask.cpp">
+      <Filter>Timer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\Validator.cpp">
+      <Filter>Options\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\WinRegistryConfiguration.cpp">
+      <Filter>Windows\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\WinRegistryKey.cpp">
+      <Filter>Windows\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\WinService.cpp">
+      <Filter>Windows\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\src\XMLConfiguration.cpp">
+      <Filter>Configuration\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\AbstractConfiguration.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\Application.h">
+      <Filter>Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\ConfigurationMapper.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\ConfigurationView.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\FilesystemConfiguration.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\HelpFormatter.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\IniFileConfiguration.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\IntValidator.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\JSONConfiguration.h">
+      <Filter>Util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\LayeredConfiguration.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\LocalConfigurationView.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\LoggingConfigurator.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\LoggingSubsystem.h">
+      <Filter>Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\MapConfiguration.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\Option.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\OptionCallback.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\OptionException.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\OptionProcessor.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\OptionSet.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\PropertyFileConfiguration.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\RegExpValidator.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\ServerApplication.h">
+      <Filter>Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\Subsystem.h">
+      <Filter>Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\SystemConfiguration.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\Timer.h">
+      <Filter>Timer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\TimerTask.h">
+      <Filter>Timer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\TimerTaskAdapter.h">
+      <Filter>Timer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\Units.h">
+      <Filter>Units\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\Util.h">
+      <Filter>Util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\Validator.h">
+      <Filter>Options\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\WinRegistryConfiguration.h">
+      <Filter>Windows\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\WinRegistryKey.h">
+      <Filter>Windows\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\WinService.h">
+      <Filter>Windows\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\include\Poco\Util\XMLConfiguration.h">
+      <Filter>Configuration\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\Util\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{24DC03FD-D91F-37C7-9164-0D6153B5474F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Header Files">
+      <UniqueIdentifier>{0DFB3EAE-0128-3699-8D56-3FC9D2D3C748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Source Files">
+      <UniqueIdentifier>{F4BFBA53-F600-3110-A7AA-A5926EC33A60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{4CC4526D-170F-3D2B-A219-972FAF30658E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration\Header Files">
+      <UniqueIdentifier>{ED32BE0A-7657-384C-8C79-B2A7F5AC797B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration\Source Files">
+      <UniqueIdentifier>{B7A4BAE0-E641-3B7F-AE37-34DE8C3804C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{C12083EF-E711-365E-ACE9-9784C7557F5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\Source Files">
+      <UniqueIdentifier>{6FFF3F8E-0C3B-3C78-BCC6-40A32F8183DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Options">
+      <UniqueIdentifier>{8B0226FD-C184-3512-BCAF-B83B7BE8DD53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Options\Header Files">
+      <UniqueIdentifier>{A908C4AC-D9ED-3B37-9EA2-D29021F3EA08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Options\Source Files">
+      <UniqueIdentifier>{1D959BBD-88F7-3195-BED9-D4996E1F1B97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3AFC851E-4295-3322-9FF7-1FF9ECD283F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{EC619822-19D5-3A1A-80FF-32483F2D55C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer\Header Files">
+      <UniqueIdentifier>{CF754A04-E87D-31B7-8F36-42D5DBF10E60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer\Source Files">
+      <UniqueIdentifier>{205F3DD1-2FDE-3016-BCFA-4809E1F2A77E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units">
+      <UniqueIdentifier>{C43128AD-51C2-32D7-8916-5732FABFE431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Header Files">
+      <UniqueIdentifier>{3EFA7AAF-2606-3CF2-B563-6C81E99634DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{2C988528-DC26-3C06-BF8E-47373E9CB476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Header Files">
+      <UniqueIdentifier>{0F31B528-772B-3E62-8006-5E1A34B335CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{2166FDE5-DF2B-3E65-ABEF-D6085BE8A73F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Header Files">
+      <UniqueIdentifier>{5CC2C11C-6245-3DB1-B5C4-DDCD1F5E16F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Source Files">
+      <UniqueIdentifier>{834DFB5D-FED3-31D1-A4CE-07AF5B040BB3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

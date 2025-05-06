@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D337D252-ED4A-3DEB-B8A4-80D04522775D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Encodings</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opengl\fetch-content\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Encodings.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PocoEncodingsd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opengl\fetch-content\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Encodings.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PocoEncodings</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opengl\fetch-content\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Encodings.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PocoEncodings</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opengl\fetch-content\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Encodings.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PocoEncodings</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DEBUG;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";Encodings_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";Encodings_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\PocoFoundationd.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opengl/fetch-content/build/lib/Debug/PocoEncodingsd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opengl/fetch-content/build/bin/Debug/PocoEncodingsd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Release";Encodings_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";Encodings_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opengl/fetch-content/build/lib/Release/PocoEncodings.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opengl/fetch-content/build/bin/Release/PocoEncodings.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";Encodings_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";Encodings_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opengl/fetch-content/build/lib/MinSizeRel/PocoEncodings.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opengl/fetch-content/build/bin/MinSizeRel/PocoEncodings.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";Encodings_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";Encodings_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opengl/fetch-content/build/lib/RelWithDebInfo/PocoEncodings.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opengl/fetch-content/build/bin/RelWithDebInfo/PocoEncodings.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/opengl/fetch-content/build/_deps/poco-src/Encodings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Encodings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\cmake\PocoEncodingsConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opengl\fetch-content\build\_deps\poco-build\Encodings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/opengl/fetch-content/build/_deps/poco-src/Encodings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Encodings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\cmake\PocoEncodingsConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opengl\fetch-content\build\_deps\poco-build\Encodings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/opengl/fetch-content/build/_deps/poco-src/Encodings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Encodings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\cmake\PocoEncodingsConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opengl\fetch-content\build\_deps\poco-build\Encodings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/opengl/fetch-content/build/_deps/poco-src/Encodings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Encodings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\opengl\fetch-content\build\_deps\poco-src\Encodings\cmake\PocoEncodingsConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opengl\fetch-content\build\_deps\poco-build\Encodings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\DoubleByteEncoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Encodings.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_10Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_11Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_13Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_14Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_16Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_3Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_4Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_5Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_6Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_7Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_8Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\ISO8859_9Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\MacCentralEurRomanEncoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\MacChineseSimpEncoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\MacChineseTradEncoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\MacCyrillicEncoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\MacJapaneseEncoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\MacKoreanEncoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\MacRomanEncoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows1253Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows1254Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows1255Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows1256Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows1257Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows1258Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows874Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows932Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows936Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows949Encoding.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\src\Windows950Encoding.cpp" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\DoubleByteEncoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Encodings.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_10Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_11Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_13Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_14Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_16Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_3Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_4Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_5Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_6Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_7Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_8Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\ISO8859_9Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\MacCentralEurRomanEncoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\MacChineseSimpEncoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\MacChineseTradEncoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\MacCyrillicEncoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\MacJapaneseEncoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\MacKoreanEncoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\MacRomanEncoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows1253Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows1254Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows1255Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows1256Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows1257Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows1258Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows874Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows932Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows936Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows949Encoding.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Encodings\include\Poco\Windows950Encoding.h" />
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\opengl\fetch-content\build\ZERO_CHECK.vcxproj">
+      <Project>{F65E008E-E3C6-3028-85DA-0FE5709FE791}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opengl\fetch-content\build\_deps\poco-build\Foundation\Foundation.vcxproj">
+      <Project>{DEAEC043-9D7F-3A89-B787-E1B1E3EA3DFE}</Project>
+      <Name>Foundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

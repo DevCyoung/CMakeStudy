@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\PageCompiler\File2Page\src\File2Page.cpp">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\PageCompiler\File2Page\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3AFC851E-4295-3322-9FF7-1FF9ECD283F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown">
+      <UniqueIdentifier>{69390877-C587-39E9-B5E5-EB37AE8626CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown\Source Files">
+      <UniqueIdentifier>{5AB20999-5808-3D25-B765-FA79B3833A17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

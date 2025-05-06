@@ -1,0 +1,9 @@
+C:/opengl/test/buid/CMakeFiles/pass.dir
+C:/opengl/test/buid/CMakeFiles/fail.dir
+C:/opengl/test/buid/CMakeFiles/Experimental.dir
+C:/opengl/test/buid/CMakeFiles/Nightly.dir
+C:/opengl/test/buid/CMakeFiles/Continuous.dir
+C:/opengl/test/buid/CMakeFiles/NightlyMemoryCheck.dir
+C:/opengl/test/buid/CMakeFiles/RUN_TESTS.dir
+C:/opengl/test/buid/CMakeFiles/ALL_BUILD.dir
+C:/opengl/test/buid/CMakeFiles/ZERO_CHECK.dir

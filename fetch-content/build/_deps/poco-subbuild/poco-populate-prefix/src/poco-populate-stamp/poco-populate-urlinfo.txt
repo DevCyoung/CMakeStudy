@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/download-poco-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/verify-poco-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate-prefix/src/poco-populate-stamp/extract-poco-populate.cmake
+source_dir=C:/opengl/fetch-content/build/_deps/poco-src
+work_dir=C:/opengl/fetch-content/build/_deps
+url(s)=https://github.com/pocoproject/poco/archive/refs/tags/poco-1.12.4-release.tar.gz
+hash=MD5=0ca5d1e2f2a5e8ba2f0a83c2e6df374a
+      no_extract=
+

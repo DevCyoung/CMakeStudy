@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\42e5acd1af22d71d054138d1654b1bf5\poco-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\42e5acd1af22d71d054138d1654b1bf5\poco-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\42e5acd1af22d71d054138d1654b1bf5\poco-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\42e5acd1af22d71d054138d1654b1bf5\poco-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\42e5acd1af22d71d054138d1654b1bf5\poco-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\42e5acd1af22d71d054138d1654b1bf5\poco-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\42e5acd1af22d71d054138d1654b1bf5\poco-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\42e5acd1af22d71d054138d1654b1bf5\poco-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\84fda0c6433e2bc4db60d46b96e74d1d\poco-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\1d057c204d6db9123e7c67d9050a92be\poco-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\opengl\fetch-content\build\_deps\poco-subbuild\CMakeFiles\poco-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D71594DC-B09B-3F59-BFCF-A6E7AF6E21FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

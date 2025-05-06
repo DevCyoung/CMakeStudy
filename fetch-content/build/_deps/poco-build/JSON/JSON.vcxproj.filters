@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\Array.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\Handler.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\JSONException.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\Object.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\ParseHandler.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\Parser.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\ParserImpl.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\PrintHandler.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\Query.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\Stringifier.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\Template.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\TemplateCache.cpp">
+      <Filter>JSON\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\src\pdjson.c">
+      <Filter>pdjson\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\Array.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\Handler.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\JSON.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\JSONException.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\Object.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\ParseHandler.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\Parser.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\ParserImpl.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\PrintHandler.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\Query.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\Stringifier.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\Template.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\include\Poco\JSON\TemplateCache.h">
+      <Filter>JSON\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\JSON\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{C12083EF-E711-365E-ACE9-9784C7557F5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\Header Files">
+      <UniqueIdentifier>{AC1FF126-1914-3D86-8038-B095001D6BD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\Source Files">
+      <UniqueIdentifier>{6FFF3F8E-0C3B-3C78-BCC6-40A32F8183DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3AFC851E-4295-3322-9FF7-1FF9ECD283F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pdjson">
+      <UniqueIdentifier>{A0BD7EE0-FB58-3738-981D-F1E121BA1FBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pdjson\Source Files">
+      <UniqueIdentifier>{4D52BE55-D0C9-34EC-B7B7-896ADB60ABD6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

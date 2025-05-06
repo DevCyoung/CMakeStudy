@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\Array.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\Binary.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\Connection.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\Cursor.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\Database.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\DeleteRequest.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\Document.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\Element.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\GetMoreRequest.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\InsertRequest.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\JavaScriptCode.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\KillCursorsRequest.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\Message.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\MessageHeader.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\ObjectId.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\QueryRequest.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\RegularExpression.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\ReplicaSet.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\RequestMessage.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\ResponseMessage.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\src\UpdateRequest.cpp">
+      <Filter>MongoDB\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\Array.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\BSONReader.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\BSONWriter.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\Binary.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\Connection.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\Cursor.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\Database.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\DeleteRequest.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\Document.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\Element.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\GetMoreRequest.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\InsertRequest.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\JavaScriptCode.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\KillCursorsRequest.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\Message.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\MessageHeader.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\MongoDB.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\ObjectId.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\PoolableConnectionFactory.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\QueryRequest.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\RegularExpression.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\ReplicaSet.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\RequestMessage.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\ResponseMessage.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\include\Poco\MongoDB\UpdateRequest.h">
+      <Filter>MongoDB\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\MongoDB\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MongoDB">
+      <UniqueIdentifier>{5BD79FC8-3F73-3044-B411-DC96E15FC9F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MongoDB\Header Files">
+      <UniqueIdentifier>{727CC7C6-DEAD-3535-A36F-38984D844F3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MongoDB\Source Files">
+      <UniqueIdentifier>{D5D9A569-78F3-3DE3-84B6-90D412AD780C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3AFC851E-4295-3322-9FF7-1FF9ECD283F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

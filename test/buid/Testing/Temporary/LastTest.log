@@ -1,0 +1,50 @@
+Start testing: May 06 19:19 대한민국 표준시
+----------------------------------------------------------
+1/3 Testing: foo-test
+1/3 Test: foo-test
+Command: "C:/opengl/test/buid/Debug/pass.exe"
+Directory: C:/opengl/test/buid
+"foo-test" start time: May 06 19:19 대한민국 표준시
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"foo-test" end time: May 06 19:19 대한민국 표준시
+"foo-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: bar-test
+2/3 Test: bar-test
+Command: "C:/opengl/test/buid/Debug/fail.exe"
+Directory: C:/opengl/test/buid
+"bar-test" start time: May 06 19:19 대한민국 표준시
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"bar-test" end time: May 06 19:19 대한민국 표준시
+"bar-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: baz-test
+3/3 Test: baz-test
+Command: "C:/opengl/test/buid/Debug/fail.exe" "Fail is not fail."
+Directory: C:/opengl/test/buid
+"baz-test" start time: May 06 19:19 대한민국 표준시
+Output:
+----------------------------------------------------------
+Fail is not fail.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Fail is not fail.]
+"baz-test" end time: May 06 19:19 대한민국 표준시
+"baz-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 06 19:19 대한민국 표준시

@@ -1,0 +1,20 @@
+^C:\OPENGL\FETCH-CONTENT\BUILD\CMAKEFILES\8C3EE7A0C27B8E79732480034D0777EC\POCOMSG.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x86\mc.exe" -h C:/opengl/fetch-content/build/_deps/poco-build/Foundation -r C:/opengl/fetch-content/build/_deps/poco-build/Foundation C:/opengl/fetch-content/build/_deps/poco-src/Foundation/src/pocomsg.mc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SRC\FOUNDATION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Foundation/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

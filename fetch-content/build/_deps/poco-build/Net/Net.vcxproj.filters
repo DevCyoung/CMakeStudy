@@ -1,0 +1,872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\AbstractHTTPRequestHandler.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\DNS.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\DatagramSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\DatagramSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\DialogSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\EscapeHTMLStream.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\FTPClientSession.cpp">
+      <Filter>FTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\FTPStreamFactory.cpp">
+      <Filter>FTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\FilePartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTMLForm.cpp">
+      <Filter>HTML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPAuthenticationParams.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPBasicCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPBufferAllocator.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPChunkedStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPClientSession.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPCookie.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPDigestCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPFixedLengthStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPHeaderStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPIOStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPMessage.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPNTLMCredentials.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPRequest.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPRequestHandler.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPRequestHandlerFactory.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPResponse.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServer.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServerConnection.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServerConnectionFactory.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServerParams.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServerRequest.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServerRequestImpl.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServerResponse.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServerResponseImpl.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPServerSession.cpp">
+      <Filter>HTTPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPSession.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPSessionFactory.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPSessionInstantiator.cpp">
+      <Filter>HTTPClient\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPStream.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HTTPStreamFactory.cpp">
+      <Filter>HTTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\HostEntry.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ICMPClient.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ICMPEventArgs.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ICMPPacket.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ICMPPacketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ICMPSocket.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ICMPSocketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ICMPv4PacketImpl.cpp">
+      <Filter>ICMP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\IPAddress.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\IPAddressImpl.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\MailMessage.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\MailRecipient.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\MailStream.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\MediaType.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\MessageHeader.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\MulticastSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\MultipartReader.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\MultipartWriter.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\NTLMCredentials.cpp">
+      <Filter>NTLM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\NTPClient.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\NTPEventArgs.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\NTPPacket.cpp">
+      <Filter>NTP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\NameValueCollection.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\Net.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\NetException.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\NetworkInterface.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\NullPartHandler.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\OAuth10Credentials.cpp">
+      <Filter>OAuth\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\OAuth20Credentials.cpp">
+      <Filter>OAuth\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\POP3ClientSession.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\PartHandler.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\PartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\PartStore.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\PollSet.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\QuotedPrintableDecoder.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\QuotedPrintableEncoder.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\RawSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\RawSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\RemoteSyslogChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\RemoteSyslogListener.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SMTPChannel.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SMTPClientSession.cpp">
+      <Filter>Mail\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SSPINTLMCredentials.cpp">
+      <Filter>NTLM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ServerSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\ServerSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\Socket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SocketAddress.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SocketAddressImpl.cpp">
+      <Filter>NetCore\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SocketNotification.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SocketNotifier.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SocketProactor.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SocketReactor.cpp">
+      <Filter>Reactor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\SocketStream.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\StreamSocket.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\StreamSocketImpl.cpp">
+      <Filter>Sockets\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\StringPartSource.cpp">
+      <Filter>Messages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\TCPServer.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\TCPServerConnection.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\TCPServerConnectionFactory.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\TCPServerDispatcher.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\TCPServerParams.cpp">
+      <Filter>TCPServer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\UDPClient.cpp">
+      <Filter>UDP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\UDPServerParams.cpp">
+      <Filter>UDP\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\WebSocket.cpp">
+      <Filter>WebSocket\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\WebSocketImpl.cpp">
+      <Filter>WebSocket\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\wepoll.c">
+      <Filter>Unknown\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\AbstractHTTPRequestHandler.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\DNS.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\DatagramSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\DatagramSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\DialogSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\EscapeHTMLStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\FTPClientSession.h">
+      <Filter>FTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\FTPStreamFactory.h">
+      <Filter>FTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\FilePartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTMLForm.h">
+      <Filter>HTML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPAuthenticationParams.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPBasicCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPBasicStreamBuf.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPBufferAllocator.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPChunkedStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPClientSession.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPCookie.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPDigestCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPFixedLengthStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPHeaderStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPIOStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPMessage.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPNTLMCredentials.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPRequest.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPRequestHandler.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPRequestHandlerFactory.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPResponse.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServer.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServerConnection.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServerConnectionFactory.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServerParams.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServerRequest.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServerRequestImpl.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServerResponse.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServerResponseImpl.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPServerSession.h">
+      <Filter>HTTPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPSession.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPSessionFactory.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPSessionInstantiator.h">
+      <Filter>HTTPClient\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPStream.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HTTPStreamFactory.h">
+      <Filter>HTTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\HostEntry.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ICMPClient.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ICMPEventArgs.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ICMPPacket.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ICMPPacketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ICMPSocket.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ICMPSocketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ICMPv4PacketImpl.h">
+      <Filter>ICMP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\IPAddress.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\IPAddressImpl.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MailMessage.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MailRecipient.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MailStream.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MediaType.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MessageHeader.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MultiSocketPoller.h">
+      <Filter>UDP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MulticastSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MultipartReader.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\MultipartWriter.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\NTLMCredentials.h">
+      <Filter>NTLM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\NTPClient.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\NTPEventArgs.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\NTPPacket.h">
+      <Filter>NTP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\NameValueCollection.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\Net.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\NetException.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\NetworkInterface.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\NullPartHandler.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\OAuth10Credentials.h">
+      <Filter>OAuth\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\OAuth20Credentials.h">
+      <Filter>OAuth\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\POP3ClientSession.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ParallelSocketAcceptor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ParallelSocketReactor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\PartHandler.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\PartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\PartStore.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\PollSet.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\QuotedPrintableDecoder.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\QuotedPrintableEncoder.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\RawSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\RawSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\RemoteSyslogChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\RemoteSyslogListener.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SMTPChannel.h">
+      <Filter>Logging\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SMTPClientSession.h">
+      <Filter>Mail\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SSPINTLMCredentials.h">
+      <Filter>NTLM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ServerSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\ServerSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SingleSocketPoller.h">
+      <Filter>UDP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\Socket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketAcceptor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketAddress.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketAddressImpl.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketConnector.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketDefs.h">
+      <Filter>NetCore\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketNotification.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketNotifier.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketProactor.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketReactor.h">
+      <Filter>Reactor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\SocketStream.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\StreamSocket.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\StreamSocketImpl.h">
+      <Filter>Sockets\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\StringPartSource.h">
+      <Filter>Messages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\TCPServer.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\TCPServerConnection.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\TCPServerConnectionFactory.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\TCPServerDispatcher.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\TCPServerParams.h">
+      <Filter>TCPServer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\UDPClient.h">
+      <Filter>UDP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\UDPHandler.h">
+      <Filter>UDP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\UDPServer.h">
+      <Filter>UDP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\UDPServerParams.h">
+      <Filter>UDP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\UDPSocketReader.h">
+      <Filter>UDP\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\WebSocket.h">
+      <Filter>WebSocket\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\include\Poco\Net\WebSocketImpl.h">
+      <Filter>WebSocket\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\src\wepoll.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\Net\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FTP">
+      <UniqueIdentifier>{689A177B-8CBC-3D3A-92CE-4418E0C3EF52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP\Header Files">
+      <UniqueIdentifier>{1E0FAED7-A847-322E-BB5E-7490E804CE64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP\Source Files">
+      <UniqueIdentifier>{F560FB51-F671-39FC-8008-7F1EBE8A11F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML">
+      <UniqueIdentifier>{5C98661C-9044-3C46-A3AD-C7A77E4DA99F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\Header Files">
+      <UniqueIdentifier>{387EF7E3-7F9B-36C8-B359-B2BB70D2484D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML\Source Files">
+      <UniqueIdentifier>{EDB91BB5-8805-3531-B27B-A18ED8A37F6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP">
+      <UniqueIdentifier>{259EA215-0651-3142-BA6D-800C6C432199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient">
+      <UniqueIdentifier>{0F4AB525-D26A-339A-9268-4730A5D87AE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient\Header Files">
+      <UniqueIdentifier>{206FCFB9-9911-31F0-B3BC-5D635BA19140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPClient\Source Files">
+      <UniqueIdentifier>{F5DE276B-10AC-39AA-AF3B-A4DBD12C4C27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer">
+      <UniqueIdentifier>{37313E61-6F2A-3DD2-8FE4-395CA1DEF664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer\Header Files">
+      <UniqueIdentifier>{D8279ABE-6D9B-3B07-91C3-BC26722AB5EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPServer\Source Files">
+      <UniqueIdentifier>{2AF8D6FE-6533-3F00-B253-3BD1627630FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Header Files">
+      <UniqueIdentifier>{88BE209B-889B-3342-AEBA-EA093005DEBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTP\Source Files">
+      <UniqueIdentifier>{327045A1-E92E-312D-BFBC-855FDDA2945E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP">
+      <UniqueIdentifier>{9DB2FD36-D7A4-3105-A6C9-1D482677C8FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP\Header Files">
+      <UniqueIdentifier>{3DEA7DF7-2D55-32E6-AF9D-EBD13BAD4A7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICMP\Source Files">
+      <UniqueIdentifier>{9C0DC18A-E348-3D99-BD63-78422757AC4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{D197B2D9-4E26-3ACD-9E70-9353E3448F54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Header Files">
+      <UniqueIdentifier>{5429A5B5-7E52-3B95-A192-AF4A9B14BFB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Source Files">
+      <UniqueIdentifier>{C309C09D-AB15-3FCD-835F-8ACF0A900446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail">
+      <UniqueIdentifier>{29BD220A-DE77-3A12-9634-660F054155F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail\Header Files">
+      <UniqueIdentifier>{6ADEFC7B-B4E2-31E4-8103-A3363E06FAA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail\Source Files">
+      <UniqueIdentifier>{8CAC7FEE-22AC-3229-9DDD-747C2374ED70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{B12CCF1C-2FDF-3E07-88E3-291B833892A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\Header Files">
+      <UniqueIdentifier>{16026684-6CB3-31B3-9366-210BD6B0159C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\Source Files">
+      <UniqueIdentifier>{B1B466BE-E7EB-3B5D-B714-31677FF22EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTLM">
+      <UniqueIdentifier>{B1AD14C7-3EEE-340F-8D74-7D95CB9C7C41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTLM\Header Files">
+      <UniqueIdentifier>{FD23BA5C-CE5C-3E51-98F5-50A31FFBF5DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTLM\Source Files">
+      <UniqueIdentifier>{ECE15158-DDB6-3B08-89B7-1EC846A0F024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTP">
+      <UniqueIdentifier>{BD372C88-CF1A-375B-B493-FDDEC8711FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTP\Header Files">
+      <UniqueIdentifier>{EA9AED3E-7CFD-35AB-8769-46461A65D782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTP\Source Files">
+      <UniqueIdentifier>{C35B17AC-4322-3EEF-8C83-C751EA2C00B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore">
+      <UniqueIdentifier>{D119936A-83E5-3BE5-B860-59573F1EDF92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore\Header Files">
+      <UniqueIdentifier>{84810D95-1189-3ED9-9005-48B7D062BEEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetCore\Source Files">
+      <UniqueIdentifier>{6698A092-55FA-38D6-8DE8-9DCFFE5DB745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth">
+      <UniqueIdentifier>{81299EA3-DFFF-32C4-87CF-BFCF67745746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth\Header Files">
+      <UniqueIdentifier>{7D1F0E9F-5A27-3C49-9AFD-A2867867DE26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OAuth\Source Files">
+      <UniqueIdentifier>{0C67A11E-B5C8-39A8-ADAF-58250CC4299E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor">
+      <UniqueIdentifier>{5D2863BD-E2D0-38F2-BD9A-27609F6AC596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor\Header Files">
+      <UniqueIdentifier>{0E2EBC70-47C9-339A-8102-20EEF4C91E6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reactor\Source Files">
+      <UniqueIdentifier>{81F4B0CB-85B5-3232-BDA5-8E37B24BCE89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3AFC851E-4295-3322-9FF7-1FF9ECD283F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets">
+      <UniqueIdentifier>{123E8320-2B27-30EA-8E3C-4C55698DBE26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets\Header Files">
+      <UniqueIdentifier>{7D70D686-A28D-3035-A5C0-31D643BD219B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sockets\Source Files">
+      <UniqueIdentifier>{E9F75449-96AD-3012-87AB-DB2ACD4AC789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer">
+      <UniqueIdentifier>{6EF4CC67-386D-38B8-A538-62245E272C0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer\Header Files">
+      <UniqueIdentifier>{630F33A3-F140-3F37-9758-7AD99EB0B815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPServer\Source Files">
+      <UniqueIdentifier>{AD9C5C1C-C521-301C-BB49-D037BD6929F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP">
+      <UniqueIdentifier>{61CC9A47-EFC3-3404-A466-364288996CAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP\Header Files">
+      <UniqueIdentifier>{E829E793-89B5-3E6A-B707-C6C4FDC6479F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP\Source Files">
+      <UniqueIdentifier>{6E8F1D2E-7CFD-3FDA-9144-822BD83A17B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown">
+      <UniqueIdentifier>{69390877-C587-39E9-B5E5-EB37AE8626CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown\Header Files">
+      <UniqueIdentifier>{FC31DF72-8118-36DC-8A4D-AA8D843D6BDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown\Source Files">
+      <UniqueIdentifier>{5AB20999-5808-3D25-B765-FA79B3833A17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket">
+      <UniqueIdentifier>{BC9BFEF6-A63D-33F3-A99C-D8D6122872FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket\Header Files">
+      <UniqueIdentifier>{7EDB6DD8-FBFB-3616-B029-BE2316A52D0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket\Source Files">
+      <UniqueIdentifier>{EFC3E2F3-2672-36E8-A80C-55E534DD3908}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

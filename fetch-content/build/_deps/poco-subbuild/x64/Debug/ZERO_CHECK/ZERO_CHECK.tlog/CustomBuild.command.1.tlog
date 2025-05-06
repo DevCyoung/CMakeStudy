@@ -1,0 +1,10 @@
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SUBBUILD\CMAKEFILES\1D057C204D6DB9123E7C67D9050A92BE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content/build/_deps/poco-subbuild -BC:/opengl/fetch-content/build/_deps/poco-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/opengl/fetch-content/build/_deps/poco-subbuild/poco-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

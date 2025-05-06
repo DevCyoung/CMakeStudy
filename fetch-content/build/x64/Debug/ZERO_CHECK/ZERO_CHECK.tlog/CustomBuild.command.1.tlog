@@ -1,0 +1,10 @@
+^C:\OPENGL\FETCH-CONTENT\BUILD\CMAKEFILES\DE089EC599DE4D760181DC4E6BB5B7F2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/opengl/fetch-content/build/fetch-content.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

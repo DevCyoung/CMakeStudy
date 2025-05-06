@@ -1,0 +1,9 @@
+C:/opengl/practice/build/CMakeFiles/client.dir
+C:/opengl/practice/build/CMakeFiles/ALL_BUILD.dir
+C:/opengl/practice/build/CMakeFiles/ZERO_CHECK.dir
+C:/opengl/practice/build/lib/thread/CMakeFiles/thread.dir
+C:/opengl/practice/build/lib/tcp/CMakeFiles/tcp.dir
+C:/opengl/practice/build/lib/rest/CMakeFiles/rest.dir
+C:/opengl/practice/build/lib/audio/CMakeFiles/audio.dir
+C:/opengl/practice/build/lib/gpu/CMakeFiles/gpu.dir
+C:/opengl/practice/build/lib/engine/CMakeFiles/engine.dir

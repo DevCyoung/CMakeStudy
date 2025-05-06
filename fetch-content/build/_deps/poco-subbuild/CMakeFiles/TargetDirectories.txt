@@ -1,0 +1,3 @@
+C:/opengl/fetch-content/build/_deps/poco-subbuild/CMakeFiles/poco-populate.dir
+C:/opengl/fetch-content/build/_deps/poco-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/opengl/fetch-content/build/_deps/poco-subbuild/CMakeFiles/ZERO_CHECK.dir

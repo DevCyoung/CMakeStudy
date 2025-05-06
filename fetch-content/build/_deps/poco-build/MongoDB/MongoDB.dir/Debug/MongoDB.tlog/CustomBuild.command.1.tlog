@@ -1,0 +1,10 @@
+^C:\OPENGL\FETCH-CONTENT\BUILD\_DEPS\POCO-SRC\MONGODB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/MongoDB/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

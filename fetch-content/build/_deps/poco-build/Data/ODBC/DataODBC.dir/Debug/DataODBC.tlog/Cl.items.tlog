@@ -1,0 +1,14 @@
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\Binder.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\Binder.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\ConnectionHandle.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\ConnectionHandle.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\Connector.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\Connector.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\EnvironmentHandle.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\EnvironmentHandle.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\Extractor.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\Extractor.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\ODBCException.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\ODBCException.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\ODBCMetaColumn.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\ODBCMetaColumn.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\ODBCStatementImpl.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\ODBCStatementImpl.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\Parameter.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\Parameter.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\Preparator.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\Preparator.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\SessionImpl.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\SessionImpl.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\TypeInfo.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\TypeInfo.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\Unicode.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\Unicode.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Data\ODBC\src\Utility.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Data\ODBC\DataODBC.dir\Debug\Utility.obj

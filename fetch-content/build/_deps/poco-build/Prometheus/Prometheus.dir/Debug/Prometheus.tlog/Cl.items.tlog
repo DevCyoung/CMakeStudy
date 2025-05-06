@@ -1,0 +1,13 @@
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\Collector.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\Collector.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\Counter.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\Counter.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\Gauge.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\Gauge.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\Histogram.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\Histogram.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\IntCounter.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\IntCounter.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\IntGauge.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\IntGauge.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\LabeledMetric.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\LabeledMetric.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\MetricsRequestHandler.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\MetricsRequestHandler.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\MetricsServer.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\MetricsServer.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\ProcessCollector.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\ProcessCollector.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\Registry.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\Registry.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\TextExporter.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\TextExporter.obj
+C:\opengl\fetch-content\build\_deps\poco-src\Prometheus\src\ThreadPoolCollector.cpp;C:\opengl\fetch-content\build\_deps\poco-build\Prometheus\Prometheus.dir\Debug\ThreadPoolCollector.obj

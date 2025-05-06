@@ -1,0 +1,10 @@
+^C:\OPENGL\PACKAGE-MANAGER\BUILD\CMAKEFILES\93239215207A22BB7356F891E637691A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/package-manager -BC:/opengl/package-manager/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/opengl/package-manager/build/package-manager.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

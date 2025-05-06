@@ -1,0 +1,4 @@
+C:/opengl/command/build/CMakeFiles/foo.dir
+C:/opengl/command/build/CMakeFiles/bar.dir
+C:/opengl/command/build/CMakeFiles/ALL_BUILD.dir
+C:/opengl/command/build/CMakeFiles/ZERO_CHECK.dir

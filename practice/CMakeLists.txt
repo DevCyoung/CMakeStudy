@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 20)
 # 컴파일러에 따른 컴파일 옵션 설정
 if(MSVC)
     add_compile_options(/W3 /WX)
-    add_compile_options("/source-charset:utf-8")
+    add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
 else()
     add_compile_options(-Wall -Werror)
 endif()

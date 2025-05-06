@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\Array.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\AsyncReader.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\Client.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\Command.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\Error.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\Exception.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\RedisEventArgs.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\RedisStream.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\src\Type.cpp">
+      <Filter>Redis\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\Array.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\AsyncReader.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\Client.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\Command.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\Error.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\Exception.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\PoolableConnectionFactory.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\Redis.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\RedisEventArgs.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\RedisStream.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\include\Poco\Redis\Type.h">
+      <Filter>Redis\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\Redis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Redis">
+      <UniqueIdentifier>{B21044B5-9FF2-3E01-9F18-12ABC8FA805F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redis\Header Files">
+      <UniqueIdentifier>{DECD8E94-8BBB-3E26-BFA9-76D9A8D7D3CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redis\Source Files">
+      <UniqueIdentifier>{CD4EE411-D52F-35C7-BA38-B9ADA4CF7A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3AFC851E-4295-3322-9FF7-1FF9ECD283F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

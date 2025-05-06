@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\AbstractContainerNode.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\AbstractNode.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Attr.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\AttrMap.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Attributes.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\AttributesImpl.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\CDATASection.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\CharacterData.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\ChildNodesList.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Comment.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\ContentHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DOMBuilder.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DOMException.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DOMImplementation.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DOMObject.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DOMParser.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DOMSerializer.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DOMWriter.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DTDHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DTDMap.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DeclHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DefaultHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Document.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DocumentEvent.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DocumentFragment.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\DocumentType.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Element.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\ElementsByTagNameList.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Entity.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\EntityReference.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\EntityResolver.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\EntityResolverImpl.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\ErrorHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Event.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\EventDispatcher.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\EventException.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\EventListener.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\EventTarget.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\InputSource.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\LexicalHandler.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Locator.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\LocatorImpl.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\MutationEvent.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Name.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\NamePool.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\NamedNodeMap.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\NamespaceStrategy.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\NamespaceSupport.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Node.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\NodeAppender.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\NodeFilter.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\NodeIterator.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\NodeList.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Notation.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\ParserEngine.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\ProcessingInstruction.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\QName.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\SAXException.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\SAXParser.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\Text.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\TreeWalker.cpp">
+      <Filter>DOM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\ValueTraits.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\WhitespaceFilter.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\XMLException.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\XMLFilter.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\XMLFilterImpl.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\XMLReader.cpp">
+      <Filter>SAX\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\XMLStreamParser.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\XMLStreamParserException.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\XMLString.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\XMLWriter.cpp">
+      <Filter>XML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\xmlparse.cpp">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\xmlrole.c">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\xmltok.c">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\xmltok_impl.c">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\src\xmltok_ns.c">
+      <Filter>expat\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\AbstractContainerNode.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\AbstractNode.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Attr.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\AttrMap.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\AutoPtr.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\CDATASection.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\CharacterData.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\ChildNodesList.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Comment.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DOMBuilder.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DOMException.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DOMImplementation.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DOMObject.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DOMParser.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DOMSerializer.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DOMWriter.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DTDMap.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Document.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DocumentEvent.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DocumentFragment.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\DocumentType.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Element.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\ElementsByTagNameList.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Entity.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\EntityReference.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Event.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\EventDispatcher.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\EventException.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\EventListener.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\EventTarget.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\MutationEvent.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\NamedNodeMap.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Node.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\NodeAppender.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\NodeFilter.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\NodeIterator.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\NodeList.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Notation.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\ProcessingInstruction.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\Text.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\DOM\TreeWalker.h">
+      <Filter>DOM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\Attributes.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\AttributesImpl.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\ContentHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\DTDHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\DeclHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\DefaultHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\EntityResolver.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\EntityResolverImpl.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\ErrorHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\InputSource.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\LexicalHandler.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\Locator.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\LocatorImpl.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\NamespaceSupport.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\SAXException.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\SAXParser.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\WhitespaceFilter.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\XMLFilter.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\XMLFilterImpl.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\SAX\XMLReader.h">
+      <Filter>SAX\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\Content.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\Name.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\NamePool.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\NamespaceStrategy.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\ParserEngine.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\QName.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\ValueTraits.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\XML.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\XMLException.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\XMLStream.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\XMLStreamParser.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\XMLStreamParserException.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\XMLString.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\XMLWriter.h">
+      <Filter>XML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\expat.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\include\Poco\XML\expat_external.h">
+      <Filter>Unknown\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\XML\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DOM">
+      <UniqueIdentifier>{BE2B437F-81CE-3CCB-8F7C-60AAF218240E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DOM\Header Files">
+      <UniqueIdentifier>{43E8EA4C-1DC8-38D2-A575-C1603582042A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DOM\Source Files">
+      <UniqueIdentifier>{1A28D08B-E646-3154-9F01-D446D27F289A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3AFC851E-4295-3322-9FF7-1FF9ECD283F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAX">
+      <UniqueIdentifier>{CC54C92D-5318-3222-B051-D0E26D002932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAX\Header Files">
+      <UniqueIdentifier>{DC6AE470-3D84-378A-A623-A0B913252FA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAX\Source Files">
+      <UniqueIdentifier>{05111447-3130-3CF1-850D-4BF3F4CB00E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown">
+      <UniqueIdentifier>{69390877-C587-39E9-B5E5-EB37AE8626CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unknown\Header Files">
+      <UniqueIdentifier>{FC31DF72-8118-36DC-8A4D-AA8D843D6BDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{D3259BF9-9DA6-399B-9DA7-49130DF6472A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Header Files">
+      <UniqueIdentifier>{FC72CBEF-ADA0-35EB-91AA-0277B95E10FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Source Files">
+      <UniqueIdentifier>{C14B4EEC-AE7B-3BBF-B4A2-5D94A782227B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="expat">
+      <UniqueIdentifier>{16414A19-ECBB-3C25-AD5B-8E1A9BC7E5A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="expat\Source Files">
+      <UniqueIdentifier>{9630FD9D-8F3C-3B87-9233-CF4583113234}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

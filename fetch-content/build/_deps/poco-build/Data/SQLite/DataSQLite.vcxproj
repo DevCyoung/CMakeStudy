@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1CF84EBC-8423-31A7-8415-98F8611208AC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>DataSQLite</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opengl\fetch-content\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DataSQLite.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PocoDataSQLited</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opengl\fetch-content\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DataSQLite.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PocoDataSQLite</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opengl\fetch-content\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">DataSQLite.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PocoDataSQLite</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opengl\fetch-content\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">DataSQLite.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PocoDataSQLite</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SQLITE_THREADSAFE=1;SQLITE_DISABLE_LFS;SQLITE_OMIT_UTF16;SQLITE_OMIT_PROGRESS_CALLBACK;SQLITE_OMIT_COMPLETE;SQLITE_OMIT_TCL_VARIABLE;SQLITE_OMIT_DEPRECATED;_DEBUG;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";SQLite_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SQLITE_THREADSAFE=1;SQLITE_DISABLE_LFS;SQLITE_OMIT_UTF16;SQLITE_OMIT_PROGRESS_CALLBACK;SQLITE_OMIT_COMPLETE;SQLITE_OMIT_TCL_VARIABLE;SQLITE_OMIT_DEPRECATED;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";SQLite_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\Debug\PocoDatad.lib;..\..\..\..\lib\Debug\PocoFoundationd.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opengl/fetch-content/build/lib/Debug/PocoDataSQLited.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opengl/fetch-content/build/bin/Debug/PocoDataSQLited.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SQLITE_THREADSAFE=1;SQLITE_DISABLE_LFS;SQLITE_OMIT_UTF16;SQLITE_OMIT_PROGRESS_CALLBACK;SQLITE_OMIT_COMPLETE;SQLITE_OMIT_TCL_VARIABLE;SQLITE_OMIT_DEPRECATED;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Release";SQLite_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SQLITE_THREADSAFE=1;SQLITE_DISABLE_LFS;SQLITE_OMIT_UTF16;SQLITE_OMIT_PROGRESS_CALLBACK;SQLITE_OMIT_COMPLETE;SQLITE_OMIT_TCL_VARIABLE;SQLITE_OMIT_DEPRECATED;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";SQLite_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\Release\PocoData.lib;..\..\..\..\lib\Release\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opengl/fetch-content/build/lib/Release/PocoDataSQLite.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opengl/fetch-content/build/bin/Release/PocoDataSQLite.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SQLITE_THREADSAFE=1;SQLITE_DISABLE_LFS;SQLITE_OMIT_UTF16;SQLITE_OMIT_PROGRESS_CALLBACK;SQLITE_OMIT_COMPLETE;SQLITE_OMIT_TCL_VARIABLE;SQLITE_OMIT_DEPRECATED;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";SQLite_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SQLITE_THREADSAFE=1;SQLITE_DISABLE_LFS;SQLITE_OMIT_UTF16;SQLITE_OMIT_PROGRESS_CALLBACK;SQLITE_OMIT_COMPLETE;SQLITE_OMIT_TCL_VARIABLE;SQLITE_OMIT_DEPRECATED;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";SQLite_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\MinSizeRel\PocoData.lib;..\..\..\..\lib\MinSizeRel\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opengl/fetch-content/build/lib/MinSizeRel/PocoDataSQLite.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opengl/fetch-content/build/bin/MinSizeRel/PocoDataSQLite.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SQLITE_THREADSAFE=1;SQLITE_DISABLE_LFS;SQLITE_OMIT_UTF16;SQLITE_OMIT_PROGRESS_CALLBACK;SQLITE_OMIT_COMPLETE;SQLITE_OMIT_TCL_VARIABLE;SQLITE_OMIT_DEPRECATED;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";SQLite_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SQLITE_THREADSAFE=1;SQLITE_DISABLE_LFS;SQLITE_OMIT_UTF16;SQLITE_OMIT_PROGRESS_CALLBACK;SQLITE_OMIT_COMPLETE;SQLITE_OMIT_TCL_VARIABLE;SQLITE_OMIT_DEPRECATED;POCO_ENABLE_CPP14;POCO_ENABLE_CPP11;POCO_OS_FAMILY_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";SQLite_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src;C:\opengl\fetch-content\build\_deps\poco-src\Data\include;C:\opengl\fetch-content\build\_deps\poco-src\Foundation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\lib\RelWithDebInfo\PocoData.lib;..\..\..\..\lib\RelWithDebInfo\PocoFoundation.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opengl/fetch-content/build/lib/RelWithDebInfo/PocoDataSQLite.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opengl/fetch-content/build/bin/RelWithDebInfo/PocoDataSQLite.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/opengl/fetch-content/build/_deps/poco-src/Data/SQLite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Data/SQLite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\cmake\PocoDataSQLiteConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opengl\fetch-content\build\_deps\poco-build\Data\SQLite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/opengl/fetch-content/build/_deps/poco-src/Data/SQLite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Data/SQLite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\cmake\PocoDataSQLiteConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opengl\fetch-content\build\_deps\poco-build\Data\SQLite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/opengl/fetch-content/build/_deps/poco-src/Data/SQLite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Data/SQLite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\cmake\PocoDataSQLiteConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opengl\fetch-content\build\_deps\poco-build\Data\SQLite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/opengl/fetch-content/build/_deps/poco-src/Data/SQLite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/opengl/fetch-content -BC:/opengl/fetch-content/build --check-stamp-file C:/opengl/fetch-content/build/_deps/poco-build/Data/SQLite/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\cmake\PocoDataSQLiteConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opengl\fetch-content\build\_deps\poco-build\Data\SQLite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\Binder.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\Connector.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\Extractor.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\Notifier.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\SQLiteException.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\SQLiteStatementImpl.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\SessionImpl.cpp" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\Utility.cpp" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\Binder.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\Connector.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\Extractor.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\Notifier.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\SQLite.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\SQLiteException.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\SQLiteStatementImpl.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\SessionImpl.h" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\include\Poco\Data\SQLite\Utility.h" />
+    <ClCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\sqlite3.c" />
+    <ClInclude Include="C:\opengl\fetch-content\build\_deps\poco-src\Data\SQLite\src\sqlite3.h" />
+    <ResourceCompile Include="C:\opengl\fetch-content\build\_deps\poco-src\DLLVersion.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\opengl\fetch-content\build\ZERO_CHECK.vcxproj">
+      <Project>{F65E008E-E3C6-3028-85DA-0FE5709FE791}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opengl\fetch-content\build\_deps\poco-build\Data\Data.vcxproj">
+      <Project>{4319A892-861B-3416-9E76-C03B262DDCA2}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\opengl\fetch-content\build\_deps\poco-build\Foundation\Foundation.vcxproj">
+      <Project>{DEAEC043-9D7F-3A89-B787-E1B1E3EA3DFE}</Project>
+      <Name>Foundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
